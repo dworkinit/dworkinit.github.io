@@ -4,6 +4,9 @@
 body {
 	background: url("Assets/stripes.png") repeat-x, url("Assets/background.jpg") no-repeat;
 	background-size: auto, cover;
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+	margin-top: 20px;
 }
 
 	
@@ -14,9 +17,7 @@ hr {
 }
 
 p {
-	font-family: helvetica, arial, sans-serif;
-	color: white;
-	margin-top: 20px;
+
 }
 
 section {
