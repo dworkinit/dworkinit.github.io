@@ -6,7 +6,6 @@ body {
 	background-size: auto, cover;
 	color: white;
 	font-family: helvetica, arial, sans-serif;
-	margin-top: 20px;
 }
 
 	
@@ -17,7 +16,7 @@ hr {
 }
 
 p {
-
+	margin-top: 20px;
 }
 
 section {
