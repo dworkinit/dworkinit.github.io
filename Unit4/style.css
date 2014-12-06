@@ -20,6 +20,7 @@ section {
 }
 nav {
 	float:right;
+	margin:100px 100px 0 0;
 }
 nav ul {
 	list-style-type: none;
@@ -28,10 +29,11 @@ nav li {
 	display:inline-block;
 	font-size: 1.62em;
 	float:left;
+	text-align:center;
 }
 li+li {
 	border-left: 1px solid SaddleBrown;
-	margin-left:20px;
+	margin-left:40px;
 }
 a {
 	color: SaddleBrown;
