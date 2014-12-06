@@ -6,7 +6,8 @@ body {
 	font-family: 'Antic Slab', serif;
 
 }
-
+header {
+}
 #logo {
 	/*margin: 300px 0 0 125px;*/
 	float: left;
@@ -59,5 +60,11 @@ li {
 nav a {
 	color: black;
 }
-
-
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	content: ".";
+	clear:both;
+	height:0;
+	font-size:0;
+}
