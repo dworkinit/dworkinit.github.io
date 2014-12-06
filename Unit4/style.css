@@ -29,7 +29,7 @@ nav li {
 	font-size: 1.62em;
 	float:left;
 }
-nav li + nav li {
+li+li {
 	border-left: 1px solid SaddleBrown;
 	margin-left:20px;
 }
