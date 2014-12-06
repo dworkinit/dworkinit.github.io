@@ -29,8 +29,9 @@ nav li {
 	font-size: 1.62em;
 	float:left;
 }
-nav li+nav li {
+nav li + nav li {
 	border-left: 1px solid SaddleBrown;
+	margin-left:20px;
 }
 a {
 	color: SaddleBrown;
