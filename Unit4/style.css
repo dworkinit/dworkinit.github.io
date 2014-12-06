@@ -29,11 +29,11 @@ nav li {
 	display:inline-block;
 	font-size: 1.62em;
 	float:left;
-	padding:0 0 0 40px;
+	text-align:center;
+	width:150px;
 }
 li+li {
 	border-left: 1px solid SaddleBrown;
-	margin-left:40px;
 }
 a {
 	color: SaddleBrown;
