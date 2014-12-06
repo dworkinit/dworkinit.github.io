@@ -8,12 +8,13 @@ body {
 }
 
 #logo {
-	margin: 300px 0 0 125px;
+	/*margin: 300px 0 0 125px;*/
 	float: left;
 	
 }
 
-h1 {
+a {
+	color: SaddleBrown;
 	font-family: 'Abel', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -22,10 +23,10 @@ h1 {
 	margin-right: 20%
 }
 
-a {
+/*a {
 	text-decoration: none;
 	color: SaddleBrown;
-}
+}*/
 
 a:hover {
 	color: white;
@@ -38,7 +39,9 @@ p {
 	color: #ffffff;
 	line-height: 200%;
 }
-
+nav {
+	float:right;
+}
 ul {
 	list-style-type: none;
 	display: inline;
@@ -53,7 +56,7 @@ li {
 	margin-top: 500%;
 }
 
-li a {
+nav a {
 	color: black;
 }
 
