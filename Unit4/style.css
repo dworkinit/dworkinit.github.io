@@ -18,7 +18,17 @@ section {
 	float: left;
 	
 }
-
+nav {
+	float:right;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display:inline;
+	font-size: 1.62em;
+	float:left;
+}
 a {
 	color: SaddleBrown;
 	font-family: 'Abel', sans-serif;
@@ -36,24 +46,14 @@ a:hover {
 	color: white;
 	transition-duration:.5s;
 }
-
+nav a {
+	color: SaddleBrown;
+	display:inline;
+}
 p {
 	margin-top: 10%;
 	color: #ffffff;
 	line-height: 200%;
-}
-nav {
-	float:right;
-}
-ul {
-	list-style-type: none;
-}
-li {
-	font-size: 1.62em;
-}
-
-nav a {
-	color: black;
 }
 .clearfix:after {
 	visibility:hidden;
