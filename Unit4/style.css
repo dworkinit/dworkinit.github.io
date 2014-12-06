@@ -29,7 +29,7 @@ nav li {
 	display:inline-block;
 	font-size: 1.62em;
 	float:left;
-	text-align:center;
+	padding:0 0 0 40px;
 }
 li+li {
 	border-left: 1px solid SaddleBrown;
@@ -55,6 +55,11 @@ a:hover {
 nav a {
 	color: SaddleBrown;
 	display:inline;
+}
+.ctaButton {
+	display:block;
+	border:2px solid #fff;
+	padding:10px 20px;
 }
 p {
 	margin-top: 10%;
